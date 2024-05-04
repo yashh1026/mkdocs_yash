@@ -1,0 +1,58 @@
+site_name: My Docs
+nav:
+    - Home: index.md
+    - About: about.md
+    - Contact: contact.md
+theme:
+  name: material
+  palette:
+    - scheme: default 
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: switch to dark mode
+      primary: 'purple'
+      accent: 'blue'
+      background: 'black'
+      text: 'green'
+      code: 'light-gray'
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: switch to light mode
+      primary: 'blue'
+  language: en
+  font:
+    text: 'lato'
+  extra:
+  image: 'syno.jpeg'
+  plugins:
+  - search
+  - macros
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+extra:
+  social:
+  - icon: fontawesome/brands/youtube
+    link: https://www.youtube.com/channel/UC27P02dt561B1yehzyIWhyQ
+  - icon: fontawesome/brands/github-alt
+    ink: https://github.com/abhishekkpandey1
+  - icon: fontawesome/brands/facebook
+    link: https://www.facebook.com/profile.php?id=100000535670229
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/talkabhishekpandey/
+  
+
