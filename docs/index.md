@@ -17,6 +17,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         ...       # Other markdown pages, images and other files.
 # Welcome to My Documentation made by Yash
 
+{% include 'installation.md' %}
 
 Welcome to our documentation site! Here you'll find all the information you need to get started with our products and services.
 
